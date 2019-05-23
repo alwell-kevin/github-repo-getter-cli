@@ -1,2 +1,2 @@
 # tarball-getter-cli
-Gets your Repo from your Org as a tarball through CLI
+> Command Line utility that GETs your Repo from your Org as a tarball through CLI
