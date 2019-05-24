@@ -10,7 +10,7 @@ var Spinner = CLI.Spinner;
 
 const run = async () => {
   clear();
-  
+
   console.log(
     chalk.yellow(
       figlet.textSync('GitHub Repo Getter', { horizontalLayout: 'full' })
@@ -18,10 +18,9 @@ const run = async () => {
   );
 
   const gitHubMeta = await inquirer.askGithubMeta();
-  console.log("gitHubMeta: ", gitHubMeta);
   const spiner = new Spinner('Retrieving your Project, please wait...');
   spiner.start();
-  
+
   github.getRepo(gitHubMeta, spiner).then(function(repo){
   	console.log("Got Project: ", gitHubMeta.repo)
   })
