@@ -1,8 +1,12 @@
 # tarball-getter-cli
-> Command Line utility that GETs your Repo from your Org as a tarball through CLI
+> Download Enterprise Repository from GitHub
+
+> Command Line utility that automatically downloads a Repository @branch from your enterprise organization.
 
 ## USAGE
 
 **Installation**
 
-> Install
+> brew install github-repo-getter -g
+
+> Token should be personal access token.
