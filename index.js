@@ -13,7 +13,7 @@ const run = async () => {
   
   console.log(
     chalk.yellow(
-      figlet.textSync('Tarball Getter', { horizontalLayout: 'full' })
+      figlet.textSync('GitHub Repo Getter', { horizontalLayout: 'full' })
     )
   );
 
