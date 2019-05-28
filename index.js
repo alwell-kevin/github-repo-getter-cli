@@ -27,6 +27,7 @@ const run = async () => {
 
   github.getRepo(gitHubMeta, spiner).then(function(repo) {
     console.log("Got Project: ", gitHubMeta.repo)
+    spiner.stop();
   })
 }
 
