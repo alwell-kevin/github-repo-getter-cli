@@ -10,7 +10,9 @@
 
 **Installation**
 
-* npm install github-repo-getter -g
+* npm i -g github-repo-getter
+
+**Prompts**
 
 * Enter GitHub username.
 
