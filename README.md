@@ -14,6 +14,8 @@
 
 **Prompts**
 
+* <user>$: `github-repo-getter`
+
 * Enter GitHub username.
 
 * Enter Organization name.
