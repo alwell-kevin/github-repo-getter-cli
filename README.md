@@ -4,7 +4,9 @@
 
 * Command Line utility that automatically downloads a Repository @branch from your enterprise organization. 
 
-* This package uses HTTPS instead of GIT to retrieve repositories. This allows you to retrieve projects securely from within restricted networks by whitelisting a machine IP egress at the network firewall level after SSHing into that machine.
+* This package uses HTTPS instead of GIT to retrieve repositories. 
+
+* Note: This allows you to retrieve projects securely from within restricted networks by whitelisting a machine IP egress at the network firewall level after SSHing into that machine.
 
 ## USAGE
 
